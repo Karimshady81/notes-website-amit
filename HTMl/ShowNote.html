@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/ShowNote.css">
+    <link rel="shortcut icon" href="../Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid fs-5">
+              <a class="navbar-brand" href="../HTMl/Login.html" title="Go to Login Page">
+                <img src="../Images/favicon.ico" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item welcome">
+                    <!-- TRY TO MAKE THE USERNAME APPEAR IN THE NAV-BAR -->
+                    <a class="nav-link" id="display-username">
+
+                    </a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a onclick="homePage()" class="nav-link" id="saved-notes">Saved Notes</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a onclick="homePage()" class="nav-link" id="new-note">New Note</a>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+              </div>
+            </div>
+        </nav>
+        <!-- SECTION SHOWING THE NOTE DETAILS -->
+        <section class="container notes-section py-3">
+            <div class="mb-3">
+              <label class="form-label">Title: </label>
+              <div>
+                <p class="mx-5" id="title"></p>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Content:</label>
+              <div id="paper" class="paper-style">
+                <div class="p-2" id="content">
+                    
+                </div>
+              </div>
+            </div>
+          </section>
+
+    <script src="../JS/bootstrap.js"></script>
+    <script src="../JS/NoteDetails.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/Notes.css">
+    <link rel="shortcut icon" href="../Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- NAV SECTION -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid fs-5 navbar-content">
+              <a class="navbar-brand" href="../HTMl/Login.html" title="Go to login page">
+                <img src="../Images/favicon.ico" alt="Note-image">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item welcome">
+                    <!-- TRY TO MAKE THE USERNAME APPEAR IN THE NAV-BAR -->
+                    <a class="nav-link" id="display-username">
+                      
+                    </a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a href="#saved-notes" class="nav-link">Saved Notes</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a href="#notes-form-box" onclick="clearInput()" class="nav-link">New Note</a>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+              </div>
+            </div>
+        </nav>
+    <!-- THE NOTES INPUT AREA -->
+    <section class="container notes-section py-3" id="notes-form-box">
+      <div class="mb-3">
+        <div id="blank-input">
+
+        </div>
+        <label class="form-label">Title</label>
+        <input type="text" class="form-control text-area" id="title" maxlength="25">
+      </div>
+      <div class="mb-3">
+        <div id="blank-input">
+
+        </div>
+        <label class="form-label">Content</label>
+        <textarea class="form-control text-area" rows="10" id="note-input" maxlength="350"></textarea>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button id="save-button" class="btn btn-success btn-lg" type="submit">Save</button>
+      </div>
+    </section>
+    <!-- DISPLAY SAVED NOTES SECTION -->
+    <section class="container py-5" id="saved-notes">
+      <div class="row my-3" id="display-notes">
+      
+      </div>
+    </section>
+
+    <script src="../JS/bootstrap.js"></script>
+    <script src="../JS/Notes.js"></script>
+</body>
+</html>

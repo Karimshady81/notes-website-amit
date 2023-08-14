@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+/* DEFAULT VALUES */
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #F8F0E5;
+    color: #EADBC8 !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* ******************************* */
+/* STYLING THE NAV-BAR */
+/* ******************************* */
+.navbar {
+    font-family: 'Edu SA Beginner', cursive;
+    background-color: #102C57 !important; 
+}
+
+.nav-link{
+    cursor: pointer;   
+    color: #F8F0E5;
+}
+
+#display-username{
+    color: #F4D160;
+}
+
+#display-username:hover{
+    color: #F4D160 !important;
+    cursor: default;
+}
+
+.nav-link:hover{
+    color: #DAC0A3;
+}
+
+.navbar-toggler{
+    background-color: #EADBC8;
+}
+/* ******************************* */
+/* STYLING THE BUTTON */
+/* ******************************* */
+.btn{
+    background-color: #DAC0A3;
+}
+/* ******************************* */
+/* STYLING THE NOTES SECTION */
+/* ******************************* */
+.form-label{
+    color: #102C57 !important;
+}
+
+.notes-section{
+    font-family: 'Edu SA Beginner', cursive !important;
+    font-size: 2rem;
+}
+
+.text-area {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+}
+
+/* ******************************* */
+/* STYLING THE CARD SECTION */
+/* ******************************* */

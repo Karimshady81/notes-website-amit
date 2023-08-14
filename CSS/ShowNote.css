@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+/* DEFAULT VALUES */
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #F8F0E5 !important;
+}
+
+/* ******************************* */
+/* STYLING THE NAV-BAR */
+/* ******************************* */
+.navbar {
+    font-family: 'Edu SA Beginner', cursive;
+    background-color: #102C57 !important; 
+}
+
+.nav-link{
+    cursor: pointer;   
+    color: #F8F0E5;
+}
+
+#display-username{
+    color: #F4D160;
+}
+
+#display-username:hover{
+    color: #F4D160 !important;
+    cursor: default;
+}
+
+.nav-link:hover{
+    color: #DAC0A3;
+}
+
+.navbar-toggler{
+    background-color: #EADBC8;
+}
+/* ******************************* */
+/* STYLING THE PAPER */
+/* ******************************* */
+#paper {
+    background-color: #fff;
+    background-image: linear-gradient(rgba(53,85,131,0.1) 0%,rgba(255,255,255,0.2) 8%),url(https://www.memonotepad.com/img/paperfibers.png);
+    background-position: 0 -3px,0 0;
+    background-size: 100% 25px,10% 10%;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(118,80,13,.9);
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-label{
+    color: #102C57 !important;
+}
+
+.paper-style{
+    min-height: 500px;
+}
+
+.notes-section{
+    font-family: 'Edu SA Beginner', cursive !important;
+    color: #454545 !important;
+    font-size: 2rem;
+}
+
+.text-area {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+}
+

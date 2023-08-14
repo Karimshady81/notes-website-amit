@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #f5c27d;
+}
+
+/* ################################## */
+/* STYLING THE HOME BUTTON PAGE */
+/* ################################## */
+
+.buttons{
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.btn{
+    margin-right: 0.8rem !important;
+}
+
+.btn .col-10{
+    margin-right: 18px !important;
+}
+
+/* ################################## */
+/* STYLING THE CARD DIV */
+/* ################################## */
+
+.card{
+    color: #000;
+    font-size: 1rem;
+    border-radius: 25px !important;
+}
